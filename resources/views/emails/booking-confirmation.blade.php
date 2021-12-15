@@ -1,0 +1,1 @@
+<h1>Reservation at {{SC::getAffiliate()->domain}}</h1>

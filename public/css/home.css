@@ -1,0 +1,63 @@
+.gg-dest{
+	text-align: center;
+	margin-bottom:10px;
+}
+
+.gg-ban{
+	text-align: center;
+	display: none;
+}
+
+.gg-ban img{
+	width:99%;
+}
+
+.gg-bft{
+	text-align: center;
+	font-size: 16px;
+	margin:10px 0;
+}
+
+.gg-bft-icon{
+	width: 65px;
+	height: 65px;
+	fill:#818181;
+}
+
+.gg-spt{
+	text-align: center;
+}
+
+.gg-spt-icon{
+	width: 60px;
+	height: 60px;
+}
+
+
+@media only screen and (min-width: 768px) {
+	.gg-bft-icon{
+		width: 80px;
+		height: 80px;
+	}
+
+	#gg-topdest{
+		max-width: 900px;
+		margin:0 auto;
+	}
+
+	.gg-dest{
+		text-align: right;
+		margin-bottom:10px;
+	}
+
+	.gg-ban{
+		display: block;
+		margin: 0px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.gg-ban{
+		margin: -6px 0px;
+	}
+}

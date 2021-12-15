@@ -1,0 +1,312 @@
+.chevron{
+	background:#939393;
+	color:#fff;
+	font-size: 18px;
+	padding: 10px;
+	margin: 0 15px;
+}
+
+.chevron.active{
+	background:#2da5fc;
+}
+
+
+.chevron:before,
+.chevron:after {
+    display:inline-block;
+    content:"";
+    width:0;
+    height:0em;
+    border-style:solid;
+    position:absolute;
+    top: 5px;
+}
+.chevron:before {
+    right: -5px;
+    border-width:22px 0px 23px 25px;
+    border-color:transparent transparent transparent #939393;
+
+}
+.chevron:after {
+    left:-5px;
+    border-width: 22px 0px 23px 25px;
+    border-color: #939393 transparent; 
+}
+.chevron.active:before {
+    border-color:transparent transparent transparent #2da5fc;
+
+}
+.chevron.active:after {
+    border-color: #2da5fc transparent; 
+}
+
+
+
+
+.gg-chk-item{
+	background: #fff;
+	margin:10px 0;
+}
+
+.gg-chk-item img{
+	width: 100%;
+}
+.gg-item-name{
+	color:#2da5fc;
+	font-size:22px;
+	font-weight: 700;
+	padding-right: 20px;
+}
+
+.gg-item-data{
+	font-size: 18px;	
+}
+
+.gg-location-icon{
+	height: 16px;
+	width: 16px;
+	fill: #2da5fc;;
+}
+
+.gg-zone{
+	color:#2da5fc;
+}
+
+.gg-item-btn{
+	overflow: hidden;
+	/*text-align: center;*/
+}
+.gg-btn-book{
+	background: #2da5fc;
+	color:#fff;
+	display: inline-block;
+	font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 5px 15px;
+    border:0;
+    text-align: center;
+}
+
+.gg-btn-book:hover,
+.gg-btn-book:active,
+.gg-btn-book:visited,
+.gg-btn-book:link{
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+}
+
+.chk-title{
+	background:#2da5fc;
+	color:#fff;
+	display: block;
+	padding:10px;
+}
+
+.gg-chk-steps{
+	display:none;
+	max-width: 750px;
+	margin:20px auto;
+}
+
+.gg-item-detail, .gg-item-data{
+	font-size:16px;
+}
+
+#overview{
+	margin: 15px 0;
+}
+
+#sidebar{
+	margin: 5px 0;
+}
+
+.overview-title{
+	color: #2da5fc;
+	font-size:20px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.information-content{
+	padding:10px;
+	background: #fff;
+	margin-bottom:20px;
+	overflow: hidden;
+}
+
+.information-form h5{
+	clear:both;
+	margin:10px 0 0 0;
+	font-weight: 700;
+}
+
+.information-content .form-control{
+	border:1px solid #ccc;
+}
+
+.information-content .label-control{
+	color:#000;
+}
+
+.information-title{
+	color: #2da5fc;
+	font-size:22px;
+	font-weight: 700;
+}
+
+.overview-item{
+	border-bottom:2px solid #939393;
+	padding:20px 0;
+	color: #2da5fc;
+}
+
+.overview-item:last-child{
+	border-bottom:none;
+}
+
+.overview-item-name{
+	font-size:18px;
+	font-weight: 700;
+}
+
+.overview-item-amount{
+	text-align: right;
+}
+
+.gg-price{
+	font-size:18px;
+	font-weight: 700;
+}
+
+.gg-currency{
+	font-size:14px;
+	font-weight: bold;
+}
+
+
+.gg-delete{
+	float: right;
+}
+
+#purchase{
+	padding:20px 0;
+}
+
+#purchase-title{
+	text-align:center; 
+}
+
+#icon-thanks{
+	color:#2da5fc;
+	font-size: 50px;
+	display:block;
+	padding:5px;
+}
+
+#text-thanks{
+	color:#2da5fc;
+	font-size: 20px;
+	font-weight: 700;
+	display: block;
+	padding:5px;
+}
+
+#sub-thanks{
+	font-size: 14px;
+	display: block;
+	padding:5px;
+}
+
+#purchase-status{
+	padding:10px;
+}
+
+#status{
+	font-weight: 700;
+	font-size: 18px;
+}
+
+#status-desc{
+	margin:5px;
+}
+
+#status-desc p{
+	font-size:14px;
+	margin: 2px 0;
+}
+
+#purchaste-code span{
+	display: block;
+	text-align: right; 
+}
+
+#code{
+	font-size:24px;
+}
+
+#datetime{
+	font-size:13px;
+}
+
+
+.data-title{
+	color:#2da5fc;
+	font-size:24px;
+	font-weight: 700;
+}
+
+
+#purchase .label-control{
+	color:#000;
+	font-weight: 700;
+}
+
+.data-control{
+	padding:5px  10px;
+}
+.data-control div{
+	border-bottom:1px solid #ccc;
+}
+
+@media only screen and (min-width: 570px) {
+	.gg-chk-steps{
+		display:block;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.gg-item-name{
+		font-size:18px;
+	}
+
+	.gg-item-detail, .gg-item-data{
+		font-size:14px;
+	}
+
+	.gg-btn-book{
+		/*width: 100%;*/
+	    float: none;
+	}
+
+
+	#purchase-title{
+		text-align:left;
+	}
+
+	#text-thanks,#sub-thanks{
+		padding:2px 5px;
+	}
+
+}
+
+@media only screen and (min-width: 992px) {
+	.gg-item-name{
+		font-size:22px;
+	}
+
+	.gg-item-detail, .gg-item-data{
+		font-size:16px;
+	}
+}

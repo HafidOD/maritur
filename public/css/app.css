@@ -1,0 +1,284 @@
+@import url('../assets/jquery-ui/themes/base/jquery-ui.min.css');
+@import url('../assets/bootstrap/dist/css/bootstrap.min.css');
+@import url('../assets/font-awesome/css/font-awesome.min.css');
+@import url('../assets/bootstrap-table/dist/bootstrap-table.min.css');
+@import url('../assets/nivo-slider/nivo-slider.css');
+@import url('../assets/flexslider/flexslider.css');
+@import url('../assets/seiyria-bootstrap-slider/dist/css/bootstrap-slider.css');
+@import url('goguytravel.css');
+@import url('magnific-popup.css');
+/*@import url('home.css');*/
+@import url('hotels.css');
+@import url('bookingbox.css');
+@import url('checkout.css');
+@import url('daterangepicker.css');
+
+body > header{border-bottom: 2px solid #3C9CD8;position: relative;z-index: 5}
+
+#google_translate_element {display: inline-block;}
+.gg-bft { height: 128px }
+.gg-btn-book.added{background: #5cb85c}
+.StripeElement{padding: 10px 5px;border:1px solid #ccc;}
+.dropdown-menu{min-width: inherit;width: auto;background: #e4e4e4;border-radius: 0;border:none;padding: 0}
+.dropdown-menu>li>a{padding: 10px 20px}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{background: inherit;}
+.navbar-nav li a{padding-top: 20px}
+
+.banner-tour{margin: 25px auto 0;max-width: 670px;display: block;}
+.langflag{background: url(../images/flags.gif);width: 14px;height: 11px;display: inline-block;}
+.langflag.us{background-position: -28px 0}
+.langflag.mx{background-position: -70px 0}
+.langflag.co{background-position: -56px 0}
+.langflag.pe{background-position: -56px 0}
+.langflag.cl{background-position: -84px 0}
+
+#flags-btn{padding: 2px 5px}
+.title-box{font-size: 16px;background: #2da5fc;margin:0;padding: 10px;font-weight: bold;color: #000}
+.no-margin{margin:0;}
+#hotel h1{margin-bottom: 0}
+#hotel h3{margin-top: 0;margin-bottom: 10px;font-size: 18px}
+#hotel .gg-datadetail{padding-bottom: 15px}
+#hotel .flexslider{background: transparent;border: none;}
+/*#hotel .gg-price{font-size: 28px}*/
+
+#phones{display: none;}
+.popover{z-index: 9999}
+#hotel .gg-img-gallery{height: 120px;overflow: hidden;position: relative;margin-bottom: 5px}
+#hotel .gg-img-gallery img{position: absolute;top: 0;bottom: 0;margin: auto}
+
+#tours .tours-list article{position: relative;background-color: #000}
+#tours .tours-list article h2{font-size: 20px;position: absolute;display: block;top: 0;bottom: 0;margin:auto;text-align: center;height: 30px;width: 100%;color:#fff;}
+#tours .tours-list article img{opacity: .6}
+
+#home .gg-dest{height: 230px;display: flex;align-items: center;overflow: hidden;}
+#fb-msn{position: fixed;bottom: 20px;left: 20px;width: 45px;z-index:9999;}
+
+#bookingbox{width: 100%;margin:0 auto;}
+#forms-container{background: #3C9CD8}
+#bookingbox form {background: #3C9CD8;padding: 5px 13px}
+#bookingbox form h2{color: #fff}
+#bookingbox .label-control,#bookingbox p{font-weight: bold;}
+#bookingbox > ul{margin-bottom: 0}
+#bookingbox .tab-content{padding-bottom: 10px}
+#bookingbox ul {text-align: center;margin-bottom: 0;padding: 0}
+#bookingbox ul li{display: inline-block;}
+#bookingbox ul li a{font-size: 15px;text-transform: uppercase;padding: 2px 6px;display: block;font-weight: bold;color: #fff}
+#bookingbox ul li.active a{background: #fff;color:#077db6}
+#bookingbox form .form-control{padding: 7px;height: auto;font-size: 16px}
+#bookingbox form select.form-control{padding: 5px;height: 39px}
+#bookingbox form span.form-control{}
+#bookingbox form button[type='submit']{background: #FABD0A;padding: 7px 23px;font-size: 23px;color: #000;font-weight: bold;}
+#bookingbox .room-number{display: flex;align-items: center}
+.room-number p{color: #fff}
+.ages-container .row > div{padding: 0 5px}
+.input-daterange{text-align: center;}
+#bookingbox .input-daterange{min-height:39px;}
+#bookingbox .input-datepicker{min-height:39px}
+#hotels-paxes{}
+
+.daterangepicker .daterangepicker_input{display: none;}
+.gg-intbk form button[type='submit']{height: 40px;margin-top: 22px;border-radius: 0}
+
+.nivo-directionNav a{color: #fff;padding: 0 2em}
+
+#gg-support{
+	background: url('../images/backgrounds/bg-goguy.jpg');
+	color:#fff;
+	padding:80px 0;
+	background-position: center 27%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.box-back{z-index: 1;transition: all .5s;position: absolute;width: 100%;height: 100%;top: 0;left: 0}
+.box-border{z-index: 2;transition: all .5s;position: absolute;width: 100%;height: 100%;border-radius: 15px;top: 0;left: 0;bottom: 0;right: 0;margin: auto;}
+.top-elements{overflow: hidden;position: relative}
+.top-elements img{width: 100%}
+.top-elements:hover .box-back{background: rgba(60,156,216,.3);}
+.top-elements:hover .box-border{border:3px solid #fff;width: 95%;height: 95%}
+.top-elements p.text-middle{z-index: 3;width: 100%;height: 100%;position: absolute;top: 0;bottom: 0;margin: auto;font-size: 32px;color: #fff;display: flex;align-items: center;justify-content: center;text-align: center;line-height: 32px;padding: 0 20px}
+
+/*HOOME*/
+#bookingbox.with-back{background: #3C9CD8}
+#bookingbox .first-element{position: relative;width: 100%;height: 100%;overflow: hidden;border-radius: 10px;}
+#bookingbox .box-filter{z-index: 0;background: rgba(0,0,0,.2)}
+#bookingbox .first-element img{position: absolute;top: 0;bottom: 0;margin: auto;width: 100%}
+#bookingbox .top-img{position: absolute;right: 0;height: 100%;overflow: hidden;}
+#bookingbox #forms-container h2{margin: 15px 0 0 0;font-size: 22px;color: #fff;font-weight: bold;line-height: 17px}
+#bookingbox #forms-container h2 small{color: #fff}
+#bookingbox label.fake {color: transparent;}
+#rooms-container{padding: 0 5px}
+#home h3{padding: 30px 0;color: #3C9CD8;font-weight: bold;font-size: 29px }
+#home .destinations h4{color: #3C9CD8;margin: 0}
+#home .destinations .row div p{color: #BEBEBE}
+#home .destinations {margin: 0 auto;padding: 30px 0;border-top: 2px solid #52A6CB}
+#home #seemore{background: #FABD0A;font-weight: bold;color: #000}
+#home #seemore.collapsed .fa-caret-up{display: none;}
+#home #seemore.collapsed .fa-caret-down{display: inline;}
+#home #seemore .fa-caret-down{display: none;}
+
+.topitems article {}
+.topitems article .image{position: relative;width: 100%;height: 180px;overflow: hidden;}
+.topitems article .image img{max-width: 100%;position: absolute;z-index: 1;top: 0;bottom: 0;margin: auto}
+.topitems article .image span{z-index: 2;position: absolute;padding: 5px 10px;background: #fcb917 !important;color:#fff;bottom: 0;left: 0}
+.topitems article .desc{border:1px solid #ccc;border-top: none;padding: 10px}
+.topitems article .desc .title{color: #2da5fc;font-weight: bold;font-size: 19px;text-align: left;text-overflow: ellipsis;overflow: hidden;line-height: 19px;height: 37px}
+.topitems article .desc .price strong{color: #2da5fc}
+.topitems article .desc p i{color: #2da5fc}
+.topitems article .desc a{background: #2da5fc;color: #fff}
+
+#gg-support h3{color: #fff}
+
+.tours-slide .item img{width: 100%}
+.stylel button{width: 100%;margin-top: 13px}
+#hotels-form.stylel select{padding: 10px 2px !important}
+.carousel .item img{
+  width: 100%;
+}
+.carousel-caption{top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;font-size: 30px}
+
+#single-gallery .carousel .carousel-inner{height: 550px;width: 100%}
+#single-gallery .carousel .carousel-inner .item {width: 100%;height: 100%}
+#single-gallery .carousel .carousel-inner .item img{margin: auto;position: absolute;top: 0;bottom: 0;left: 0;right: 0;width: 100%}
+@media (max-width: 768px) {
+	#hotel .gg-img-gallery {height: 80px}
+	#single-gallery .carousel .carousel-inner{height: 450px}
+
+    .d-flex-between {
+        display: block !important;
+    }
+    .column-half {
+        width: 100% !important;
+    }
+    .h4-h {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 450px) {
+	#single-gallery .carousel .carousel-inner{height: 350px}
+}
+#detail-container .title{background: #2da5fc;color: #fff;font-size: 16px;padding: 10px 7px;font-weight: bold;margin-bottom: 0;margin-top:0 }
+#detail-container .title.tabs{padding: 0}
+#detail-container .title.tabs ul{border:0;}
+
+#section-filters{background: #fff;padding: 20px}
+#section-filters .slider{width: 100%}
+#section-filters .slider .slider-selection{background: #3C9CD8}
+#section-filters .slider .slider-handle{background: #FABD0A}
+#section-filters .slider .slider-track{background: #e4e4e4}
+#section-filters .filter-title{font-weight: bold;}
+#section-filters .range-prices{font-weight: bold;margin-bottom: 0;text-align: center;}
+#section-filters .range-values{text-align: center;}
+/*#hotel-list, #tour-list, #gg-hotel-list{padding: 10px}*/
+#gg-hotel-filter, #gg-hotel-list{padding: 0 10px}
+#hotel-stars-filter {width: 100%}
+#hotel-stars-filter .btn{background: #3C9CD8;color:#fff;width: 20%;height: 45px;display: flex;flex-wrap: wrap-reverse;align-items: center;justify-content: center;}
+#hotel-stars-filter .btn.active{background: #3180b1}
+#hotel-stars-filter .btn i{display: inline-block;}
+#section-filters .reset-btn{background: #FABD0A}
+.hotel-stars i{color: #FABD0A}
+.gg-itemlist{transition: box-shadow .2s ease-out}
+.gg-itemlist:hover{box-shadow: 0 0 15px rgba(0,0,0,.3);}
+.box-shadow-hover:hover{box-shadow: 0 0 15px rgba(0,0,0,.3);}
+/*.gg-item-price{text-align: center;}*/
+.gg-datasearch{background: #fff;margin-bottom: 10px}
+.gg-datasearch h1{color: #3082b5;font-weight: 600}
+.gg-datasearch h2{color: #000}
+#overview{margin: 0}
+#items-list ul{padding: 0 !important}
+#items-list ul li{list-style: none;}
+#hotel-mealplan-filter .btn{background: #3C9CD8;color: #fff}
+#hotel-mealplan-filter .btn.active{background: #3180b1}
+
+/*hotel*/
+#detail-container {padding: 0}
+#detail-container .gg-datadetail{padding: 12px}
+#detail-container .hotelinfo{background: #fff;padding: 10px}
+.gg-itemlist{margin:0 0 10px 0}
+.breadcrumb{display: inline-block;margin-bottom: 0}
+#shareicons{background: #f5f5f5;display: inline-flex;justify-content: flex-end;align-items: center;padding: 0 10px;border-radius: 4px}
+#shareicons p{margin: 0}
+.at-style-responsive .at-share-btn{padding: 5px !important;margin: 3px 2px !important}
+
+/* css por Hafid */
+/*home*/
+.mt10h{
+    margin-top: 10px;
+}
+.h4-h {
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+.eslogan {
+    font-size: 35px;
+    color: #D70000;
+    margin: 1.35em 0;
+    font-weight: bold;
+}
+.column-half {
+    width: 50%;
+    padding: 0 25px;
+}
+.woo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*footer*/
+.col-md-4-H {
+    width: 28%;
+}
+.d-flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+.mb-60-H {
+    margin: 60px 0;
+}
+
+/* end Hafid*/
+
+footer{border-top: 3px solid #d70102;width: 100%;padding-top: 30px;background-color: #f1f1f2}
+footer.goguy{background-image: 
+    /* url("../images/goguy-footer.png");*/
+    background-color: #f1f1f2;
+    background-size: 169px}
+footer ul {padding-left: 0;}
+footer ul li{list-style: none;  float: left; margin-right: 15px;}
+footer ul li a{color: #077db6;text-decoration: none;}
+footer p{color: #077db6;margin: 0}
+footer p.title{font-weight: bold;margin-bottom: 15px;font-size: 15px}
+footer .payment-methods p{text-align: center;}
+#footer-sl a{background: #fff;color: #d70102;border-radius: 100%;font-size: 21px;margin-left: 14px;display: inline-flex;width: 32px;height: 32px;align-items: center;justify-content: center;}
+#footer-sl a:first-child{margin: 0}
+#subfooter{background: rgba(255,255,255,.7);padding: 15px 0;margin-top: 25px}
+#subfooter ul li{display: inline-block;}
+#subfooter ul li:before{padding: 0 5px;color: #077db6;content: "|"}
+#subfooter ul li:first-child:before{display: none;}
+footer .mc-field-group{background:#fff;border-radius: 7px}
+#mce-EMAIL{width: 75% !important}
+#mc_embed_signup{width: 80%}
+#mce-EMAIL{background: transparent;height: 38px;padding: 10px}
+#mce-EMAIL,#mce-EMAIL:focus{box-shadow: none;}
+footer .mce_inline_error{background: none !important;color: red !important;font-size: 12px}
+#mc-embedded-subscribe{background: #009cd9;color: #fff;padding: 4px 14px;margin-top: 4px;margin-right: 4px;border-radius: 7px;font-weight: bold;}
+
+#detail-container h1{display: inline-block;}
+.hotelinfo h2{margin: 0;font-size: 18px}
+
+.gg-price {font-size: 27px}
+del .gg-price{font-size: 20px}
+#clientInfo > article{padding-top: 0}
+
+#popupHelp p{text-align: center;}
+.white-popup {
+  position: relative;
+  background: #FABD0A;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}

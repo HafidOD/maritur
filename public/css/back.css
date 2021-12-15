@@ -1,0 +1,29 @@
+@import url('../assets/jquery-ui/themes/base/jquery-ui.min.css');
+@import url('../assets/bootstrap/dist/css/bootstrap.min.css');
+@import url('../assets/font-awesome/css/font-awesome.min.css');
+@import url('../assets/bootstrap-table/dist/bootstrap-table.min.css');
+@import url('../assets/bootstrap-modal/css/bootstrap-modal.css');
+@import url('../assets/bootstrap-modal/css/bootstrap-modal-bs3patch.css');
+@import url('../assets/trumbowyg/dist/ui/trumbowyg.min.css');
+@import url('../assets/alertify-js/build/css/alertify.min.css');
+@import url('../assets/alertify-js/build/css/themes/default.min.css');
+
+.dinamic-tab{margin: 0;border-radius: 4px}
+.dinamic-tab .col-menu{padding: 0;background: #f5f5f5}
+.dinamic-tab .col-content{background: #eee;padding: 1em 2em;border: 1px solid #222326;border-bottom: 0}
+.dinamic-tab .nav-pills>li.active>a,.dinamic-tab .nav-pills>li.active>a:focus,.dinamic-tab .nav-pills>li.active>a:hover{z-index: 1;background: #f5f5f5;color: #222326;border:1px solid #222326 ;border-right: 0;width: 101%;border-radius: 0;;background: #eee;font-weight: bold;}
+.dinamic-tab .nav-pills>li>a{color: #222326}
+
+.images-previews{overflow: hidden;}
+.images-previews > div{float: left;padding: 0 10px;margin-bottom: 15px;text-align: center;}
+.images-previews img{max-height: 150px;max-width: 100%}
+.images-previews.images-1 > div{width: 100%}
+.images-previews.images-2 > div{width: 50%}
+.images-previews.images-3 > div{width: 33.3333%}
+.images-previews.images-4 > div{width: 25%}
+
+.sortable-images img{max-width: 100%;max-height: 100px}
+.sortable-images > div{text-align: center;margin-bottom: 15px}
+.modal-backdrop, .modal-backdrop.fade.in{background: #000 !important}
+
+.ui-widget-content{z-index: 99999 !important}
